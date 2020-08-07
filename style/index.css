@@ -1,1 +1,36 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.p{
+    justify-content: ;
+}
+body{
+    font-size:62.5%;
+    background-color:gray;
+}
+
+/* REMEMBER TO REMOVE*/
+img{
+    height:150px;
+    width:150px;
+    flex-wrap:wrap;}
+
+/*Hero section styling*/
+#hero{
+    display:flex;
+    margin:30% 4% 20% 4%;
+}
+
+.lightnin{
+    width:60%;
+    border-radius:15px;
+    height:auto 0 ;
+
+}
+#star{
+    width: 25%;
+    height:100px;
+    display:flex;
+}
