@@ -76,7 +76,32 @@ p{
 .p{
     width:20%;
 }
+
+
 footer{
     display: flex;
     justify-content: center;
+}
+/*style for tablets at 800px*/
+@media(max-width:800px){
+   body{
+       background-color:teal;
+    }
+    h1{
+        color:purple;
+    }
+}
+
+
+
+/*Style for phones at 500px*/
+
+@media(max-width:500px){
+    body{
+        background-color:blue;
+        }
+        h2{
+            color:orangered;
+        }
+    }
 }
