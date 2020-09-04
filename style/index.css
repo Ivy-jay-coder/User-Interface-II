@@ -1,108 +1,141 @@
-/* Add CSS styling here */
-*{
-    box-sizing: border-box;
-    max-width: 100%;
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
 }
-h1{
-    font-weight:bolder;
-    font-size:35px;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+header{
+    background-color:gray;
+}
+
+ 
+.image{
+    
+    display:flex;
+    margin-left:1%;
+    margin-bottom:5%;
+    margin-top:3%;
+}
+.main_text{
+    margin-top:5%;
+    
 }
 h2{
-    font-weight:bolder;
-    font-size:25px;
-}
-body{
-    font-size:62.5%;
-    font-family: sans-serif;
-    background-color:white;
-
+    font-size:150%;
+    margin-bottom:4%;
     
 }
-.lightnin{
-    display:flex;
-    justify-content: flex-start;
-    width:45%;
-    border-radius:15px;
-    height:65%;
-}
-nav{
-  display:flex;
-  justify-content:flex-start;
-  padding:0% 0;
-}
-
-/* REMEMBER TO REMOVE*/
-img{
-    height:150px;
-    width:150px;
-    flex-wrap:wrap;
-}
-
-/*Hero section styling*/
-#hero{
-    display:flex;
-    margin:1% 4% 1% 4%;
-}
-.star1{
-    display:flex;
-    text-align:center;
-    justify-content: space-around;
-    font-family: monospace;
-    font-weight: bolder;
-}
-.star2{
-    display:flex;
-    text-align:center;
-    justify-content: space-around;
-    margin:2.5% 0%;
-}
-
-.star{
-    width: 100%;
-    display:flex;
-}
-.one{
-    display:flex;
-    justify-content: center;
-    width:60%;
-    
-}
-.two{
-    display: flex;
-    flex-direction: column;
-    width:60%;
+.button1{
+  
+    margin-bottom:4%;
+    padding:3%;
 }
 p{
+  font-size:200%;
+}
+.Intro{
+    font-size:100%;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:250%;
+    padding:2%;
+}
+
+nav{
+    
+    margin:0 auto;
+    padding-left:4%;
+    padding-bottom:2%;
+}
+.alpha{
+    text-decoration:none;
     display:inline-block;
+    background-color:green;
+    padding:0 1% 0 1%;
+    text-align:center;
+    color:black;
+
+    
 }
-.p{
-    width:20%;
+.bravo{
+    text-decoration:none;
+    display:inline-block;
+    background-color:white;
+    padding:0 1% 0 1%;
+    text-align:center;
+    color:black;
+}
+.charlie{
+    text-decoration:none;
+    display:inline-block;
+    background-color:white;
+    padding:0 1% 0 1%;
+    text-align:center;
+    color:black;
+}
+.delta{
+    text-decoration:none;
+    display:inline-block;
+    background-color:white;
+    padding:0 1% 0 1%;
+    text-align:center;
+    color:black;
+}
+body{
+    background-color:white;
+    border:5px solid black;
+
+}
+.main_text{
+    
+display:flex;
+margin-left:5%;
 }
 
+.container{
+display:flex;
+}
+.container2{
+    display:flex;
+}
+.images1{
+    
+    padding:1%;
+   
+}
 
+.images2{
+    
+    padding:1%;
+}
+.text1{
+    font-size:170%;
+    text-align:center;
+}
+
+button{
+   
+   padding:1% 3% 1% 3%; 
+   text-align:center;
+}
 footer{
-    display: flex;
-    justify-content: center;
-}
-/*style for tablets at 800px*/
-@media(max-width:800px){
-   body{
-       background-color:teal;
-    }
-    h1{
-        color:purple;
-    }
+    background-color:gray
 }
 
-
-
-/*Style for phones at 500px*/
-
-@media(max-width:500px){
-    body{
-        background-color:blue;
-        }
-        h2{
-            color:orangered;
-        }
-    }
