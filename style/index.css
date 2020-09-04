@@ -1,1 +1,108 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+h1{
+    font-weight:bolder;
+    font-size:35px;
+}
+h2{
+    font-weight:bolder;
+    font-size:25px;
+}
+body{
+    font-size:62.5%;
+    font-family: sans-serif;
+    background-color:white;
+
+    
+}
+.lightnin{
+    display:flex;
+    justify-content: flex-start;
+    width:45%;
+    border-radius:15px;
+    height:65%;
+}
+nav{
+  display:flex;
+  justify-content:flex-start;
+  padding:0% 0;
+}
+
+/* REMEMBER TO REMOVE*/
+img{
+    height:150px;
+    width:150px;
+    flex-wrap:wrap;
+}
+
+/*Hero section styling*/
+#hero{
+    display:flex;
+    margin:1% 4% 1% 4%;
+}
+.star1{
+    display:flex;
+    text-align:center;
+    justify-content: space-around;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.star2{
+    display:flex;
+    text-align:center;
+    justify-content: space-around;
+    margin:2.5% 0%;
+}
+
+.star{
+    width: 100%;
+    display:flex;
+}
+.one{
+    display:flex;
+    justify-content: center;
+    width:60%;
+    
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+}
+p{
+    display:inline-block;
+}
+.p{
+    width:20%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+/*style for tablets at 800px*/
+@media(max-width:800px){
+   body{
+       background-color:teal;
+    }
+    h1{
+        color:purple;
+    }
+}
+
+
+
+/*Style for phones at 500px*/
+
+@media(max-width:500px){
+    body{
+        background-color:blue;
+        }
+        h2{
+            color:orangered;
+        }
+    }
